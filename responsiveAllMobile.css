@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.heading-divsion
+{
+    width: 100%;
+    height: 150vh;
+    background: url("Images/main-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading-content
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+    /* background-color: rgba(255, 255, 255, 0.674); */
+}
+#heading
+{
+    height: 20%;
+    width: 100%;
+    
+    /* background-color: rgba(0, 0, 0, 0.24); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 30px;
+    text-shadow:0px 2px 20px black
+    
+}
+.inputPara
+{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.458);
+    background-color: #f3c920;
+}
+
+.innerInputPara
+{
+    height: 100%;
+    width: 100%;
+
+}
+/* ===========Input division ============*/
+.user-entry
+{
+    height: 40%;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+.website-entry
+{
+    height: 60%;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+}
+#text-writing-para
+{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 1.4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+#text-writing-para:focus
+{
+    outline: none;
+}
+#text-writing-word
+{
+    height: 20%;
+    width: 40%;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    border: 0px solid black;
+}
+#text-writing-word:focus
+{
+    outline: none;
+}
+#submit-btn
+{
+    width: 15%;
+    height: 20%;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    left: 65%;
+    top: 55%;
+    background-color: rgba(0, 0, 0, 0.26);
+    border: 0px solid black;
+}
+
+/* Server Entry */
+
+.inputWord
+{
+    width: 100%;
+    height: 15%;
+    color: white;
+    text-shadow: 0px 0px 4px rgb(0, 0, 0),
+    0px 0px 8px rgb(0, 0, 0),
+    0px 0px 16px rgba(0, 0, 0, 0.947),
+    0px 0px 32px rgb(0, 0, 0);
+    font-size: 1.5em;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.userPara
+{
+    width: 100%;
+    height: 85%;
+}
+#paraEntry
+{
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    padding: 20px;
+    font-size: 1.2em;
+    font-family: 'Cairo', sans-serif;
+    color: rgb(255, 255, 255);
+}
+#inputHeading
+{
+    font-size: 3em;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+#paraEntry::-webkit-scrollbar
+{
+    height: 0px;
+}
+#spanId
+{
+    background-color: rgba(255, 255, 0, 0.9);
+    font-weight: bold;
+    padding: 2px;
+    color: black;
+}
+
+/* designing Page */
+
